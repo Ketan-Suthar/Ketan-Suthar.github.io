@@ -1,0 +1,35 @@
+img.hover-lib-visible {
+  color: black;
+  z-index: 1000;
+  position: absolute;
+
+  padding: 15px;
+  text-decoration: none;
+
+  background-color: white;
+  background-image: url(../img/loader.gif);
+  background-repeat: no-repeat;
+  background-position:center;
+
+  -moz-border-radius: 2%;
+  border-radius: 6px;
+
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+
+  border-width: 2px 4px 4px 2px;
+  border-style: solid;
+
+  border-color: rgb(90, 90, 90);
+  border-color: rgba(180, 180, 180, .5);
+} 
+
+img.hover-lib-visible:hover {
+  border-color: rgb(60, 60, 60);
+  border-color: rgba(120, 120, 120, .5);
+}
+
+img.hover-lib-hidden {
+  border-color: rgb(60, 60, 60);
+  border-color: rgba(120, 120, 120, .5);
+}
