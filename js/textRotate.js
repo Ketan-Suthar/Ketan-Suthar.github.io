@@ -53,7 +53,7 @@ $(document).ready(function() {
     });//end document ready
     function changeImage(){
         $(".downloadCV").html("<p>Download my Resume</p><img src='img/dwnld.gif'>");
-        window.open("http://bit.do/gitweb","_blank");
+        window.open("https://ketan-suthar.github.io/","_blank");
         $(".resume").addClass("downloaded");
         $(".downloaded").removeClass("resume");
        }
